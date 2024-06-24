@@ -1,0 +1,86 @@
+
+/* Container geral */
+.container {
+    max-width: 80%; /* Ajuste para 80% da largura da página */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px; 
+    
+}
+
+
+/* Estilo específico para o login-container */
+.subject{
+    background-color: #0B3C5D; /* Cor de fundo dos assuntos */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 15px auto;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    transition: transform 0.2s;
+}
+.subject:hover {
+    transform: scale(1.02);
+}
+
+.imgLogin {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.subject h1, .subject h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ .form-label {
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+}
+
+ .form-control {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+.seletores{
+    margin: 5px;
+}
+
+.botaoLogin {
+    background-color: #1D4E89; /* Cor do botão */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.subject .botaoLogin a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.selectors{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .login-container .col-md-5 {
+        max-width: 100%;
+    }
+}

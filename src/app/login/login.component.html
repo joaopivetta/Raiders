@@ -1,0 +1,35 @@
+<main class="container">
+    <div class="subject">
+        <!--FORMULÁRIO DE LOGIN PARA ESTUDANTE E PROFESSOR-->
+        <form>
+            <img class="imgLogin" src="../../assets/img/Raiders.LogoBranco.png" alt="Logo da Raiders">
+
+            <h1>Já estuda com a Raiders Academy?</h1>
+            <h3>Faça seu login e bons estudos!</h3>
+
+            <label class="form-label" for="email_login">E-mail:</label>
+            <input class="form-control" id="email_login" name="email" required="required" type="text" placeholder="Digite seu e-mail">
+
+            <label class="form-label" for="senha_login">Senha:</label>
+            <input class="form-control" id="senha_login" name="senha" required="required" type="password" placeholder="Senha">
+
+            <div class="selectors">
+                <input class="form-check-input seletores" type="radio" name="usuarios" id="professor">
+                <label class="form-check-label seletores" for="professor">Professor</label>
+
+                <input class="form-check-input seletores" type="radio" name="usuarios" id="estudante">
+                <label class="form-check-label seletores" for="estudante">Estudante</label>
+            </div>
+            
+            <div class="selectors">
+                <input class="form-check-input seletores" type="checkbox" name="manterlogado" id="manterlogado">
+                <label class="form-check-label seletores" for="manterlogado">Mantenha-se conectado</label>
+            </div>
+            
+            <button class="botaoLogin" type="button" (click)="clickLogin()">{{descricaoLogin()}}</button>
+            
+            <h3>Ainda não possui conta?</h3>
+            <button class="botaoLogin" type="button"><a  [routerLink]="['/cadastrar']">Cadastre-se</a></button>
+        </form>
+    </div>
+</main>
