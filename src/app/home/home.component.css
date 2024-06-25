@@ -19,6 +19,7 @@
     transition: transform 0.2s;
     color: #ffffff;
     width: 100%;
+    
   }
   
   .subject:hover {
@@ -36,6 +37,7 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    
   }
   
   .subject img {
@@ -43,6 +45,7 @@
     border-radius: 8px;
   }
   
+
   .subject .col-md-3 {
     flex: 0 0 30%;
     max-width: 30%;
@@ -54,12 +57,7 @@
     max-width: 70%;
   }
   
-  /* Estilo para o texto */
-  .subject p,
-  .subject ul,
-  .subject li {
-    color: #dddddd;
-  }
+ 
   
   .subject ul {
     padding-left: 20px;

@@ -4,6 +4,11 @@
     padding: 20px; 
     
 }
+
+.subject input{
+    border-radius: 8px;
+    border: none;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -13,7 +18,7 @@ a{
     color: unset;
 }
 .subject {
-    background-color: #0B3C5D; /* Cor de fundo dos assuntos */
+    background-color: #0B3C5D; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 15px auto;
